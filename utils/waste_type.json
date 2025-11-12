@@ -1,0 +1,12 @@
+{
+" UO VR ": "ORGANIC + TWIGS",
+" UO VS ": "ORGANIC + TWIGS",    
+" VL ": "Glass/Cans",
+" UO ": "Food Waste",
+" VR ": "Branches",
+" VS ": "Twigs",
+" C ": "Paper and card",
+" P ": "Plastic",
+" S ": "Undifferentiated waste",
+"template":"C PAPER P PLASTIC VL GLASS / CANS S DRY WASTE UO ORGANIC VR TWIGS / BRANCHES "
+}
