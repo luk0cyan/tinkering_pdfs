@@ -34,14 +34,14 @@ def main(data):
     filename1 = check_files(year_1, name1)
     filename2 = check_files(year_2, name2)
 
-    formatted_line_first_file = indexes_reform(datas, first[0], first[1])       
-    formatted_line_second_file = indexes_reform(datas, second[0], second[1]) 
+    formatted_line_first_file = indexes_reform(datas, first[0], first[1])
+    formatted_line_second_file = indexes_reform(datas, second[0], second[1])
 
     final_file_one = type_reform(formatted_line_first_file, first[0], first[1])
     final_file_two = type_reform(formatted_line_second_file, second[0], second[1])
 
-    write_to_file(final_file_one, year_1, filename1) #final_file_one, year_2, filename2)
-    write_to_file(final_file_two, year_2, filename2) #final_file_two, year_1, filename1)
+    write_to_file(final_file_one, year_1, filename1)
+    write_to_file(final_file_two, year_2, filename2)
 
 if __name__=="__main__":
     
